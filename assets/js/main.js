@@ -24,37 +24,37 @@ const app = {
         {
           name: "Bất Quá Nhân Gian",
           singer: "Chu Thuý Quỳnh",
-          path: "/assets/music/batquanhangian_chuthuyquynh.mp3",
+          path: "./assets/music/batquanhangian_chuthuyquynh.mp3",
           image: "https://photo-resize-zmp3.zadn.vn/w240_r1x1_webp/avatars/c/a/3/0/ca304ae8ec687e4b0ed96515b186577b.jpg"
         },
         {
           name: "Tay Trái Chỉ Trăng",
           singer: "Chu Thuý Quỳnh",
-          path: "/assets/music/taytraichitrang_chuthuyquynh.mp3",
+          path: "./assets/music/taytraichitrang_chuthuyquynh.mp3",
           image: "https://photo-resize-zmp3.zadn.vn/w240_r1x1_webp/avatars/c/a/3/0/ca304ae8ec687e4b0ed96515b186577b.jpg"
         },
         {
           name: "Đại Thiên Bồng",
           singer: "Chu Thuý Quỳnh",
-          path: "/assets/music/daithienbong_chuthuyquynh.mp3",
+          path: "./assets/music/daithienbong_chuthuyquynh.mp3",
           image: "https://photo-resize-zmp3.zadn.vn/w240_r1x1_webp/avatars/c/a/3/0/ca304ae8ec687e4b0ed96515b186577b.jpg"
         },
         {
             name: "Ai Chung Tình Được Mãi",
             singer: "Đinh Tùng Huy",
-            path: "/assets/music/AiChungTinhDuocMai-DinhTungHuy.mp3",
+            path: "./assets/music/AiChungTinhDuocMai-DinhTungHuy.mp3",
             image: "https://data.chiasenhac.com/data/cover/151/150118.jpg"
         },
         {
             name: "Hoa Hải Đường",
             singer: "Jack",
-            path: "/assets/music/Hoa Hai Duong - Jack.mp3",
+            path: "./assets/music/Hoa Hai Duong - Jack.mp3",
             image: "https://data.chiasenhac.com/data/cover/128/127858.jpg"
         },
         {
             name: "Đế Vương",
             singer: "Đình Dũng",
-            path: "/assets/music/De Vuong - Dinh Dung_ ACV.mp3",
+            path: "./assets/music/De Vuong - Dinh Dung_ ACV.mp3",
             image: "https://data.chiasenhac.com/data/cover/151/150745.jpg"
         },
       ],
