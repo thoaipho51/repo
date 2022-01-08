@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <title>Document</title>
+</head>
+<body>
+   <div class="app">
+     <div class="top">
+       <div class="header">
+          <h4 class="title">
+            Radio
+          </h4>
+       </div>
+       <div class="content">
+          <div class="album">
+              <img src="https://picsum.photos/300/300" alt="" class="album-image">
+              <div class="album-content">
+                <p class="album-time"> 3:00 p</p>
+                <h3 class="album-title">Title album</h3>
+              </div>
+            
+          </div>
+       </div>
+     </div>
+     <div class="bottom">
+        <div class="slider-container">
+              <input type="range" min="1" max="100" value="0" id="progress">
+        </div>
+       <audio id="audio"  src=""></audio>
+       <div class="control-music">
+         <div class="btn-reload">
+          <i class="fas fa-sync"></i>
+         </div>
+          <div class="btn-pre">
+            <i class="fas fa-backward"></i>
+          </div>
+         <div class="btn-play">
+           <i class="fas fa-play-circle"></i>
+         </div>
+         <div class="btn-pause">
+           <i class="fas fa-pause-circle"></i>
+         </div>
+         <div class="btn-next">
+           <i class="fas fa-forward"></i>
+         </div>
+         <div class="btn-random">
+          <i class="fas fa-random"></i>
+         </div>
+       </div>
+       <div class="list-play">
+          <ul class="list-music">
+              
+          </ul>
+       </div>
+     </div>
+   </div>
+   <script src="/assets/js/main.js"></script>
+</body>
+</html>
