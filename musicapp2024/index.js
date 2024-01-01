@@ -79,6 +79,24 @@ const app = {
             path: 'https://c1-ex-swe.nixcdn.com/NhacCuaTui994/LienKhucHoaCoThiThamMuaXuan-ThuMinh-6201043.mp3?st=LJBmxLO6kdbAIxHNJnaAyQ&e=1704692635&download=true',
             img: 'https://avatar-ex-swe.nixcdn.com/playlist/2021/12/29/3/f/b/1/1640767274835_500.jpg'
         },
+        {
+            name: 'Lối Nhỏ',
+            singer: 'Đen - Lối Nhỏ ft. Phương Anh Đào (M/V)',
+            path: 'https://dl37.y2hub.cc/file/youtubeKKc_RMln5UY128.mp3?fn=%C4%90en%20-%20L%E1%BB%91i%20Nh%E1%BB%8F%20ft.%20Ph%C6%B0%C6%A1ng%20Anh%20%C4%90%C3%A0o%20(M%E2%A7%B8V).mp3',
+            img: 'https://i.ytimg.com/vi/KKc_RMln5UY/hqdefault.jpg'
+        },
+        {
+            name: 'Khuất Lối',
+            singer: 'H-Kray | Official Lyrics Video',
+            path: 'https://dl35.y2hub.cc/file/youtubeG2iaxsilkng320.mp3',
+            img: 'https://i.ytimg.com/vi/G2iaxsilkng/sddefault.jpg?sqp=-oaymwEmCIAFEOAD8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgVyhYMA8=&rs=AOn4CLBI1j_tTleQ5ZgXT0FhB60dzCPMpw'
+        },
+        {
+            name: 'NẾU ANH ĐI',
+            singer: 'Mỹ Tâm',
+            path: 'https://dl34.y2hub.cc/file/youtube00kl9SQxMUM320.mp3?fn=N%E1%BA%BEU%20ANH%20%C4%90I%20-%20M%E1%BB%B8%20T%C3%82M%20%EF%BD%9C%20ANIMATION%20VIDEO.mp3',
+            img: 'https://i.ytimg.com/vi/IwxnguWbGy4/maxresdefault.jpg'
+        },
        
        
     ],
