@@ -32,6 +32,30 @@ const app = {
     },
     songs:  [
         {
+            name: 'Buồn Hay Vui',
+            singer: 'VSOUL, RPT MCK, Obito, V.A',
+            path: 'https://c1-ex-swe.nixcdn.com/Believe_Audio391/BuonHayVuiFeatRptMckObitoRonboogz-VSOULRPTMCKObitoRonboogz-13159599.mp3?st=_vWYSKd-1ohigjbzNp1V5w&e=1704716404&download=true',
+            img: 'https://i.ytimg.com/vi/JV0dEgbX5yk/maxresdefault.jpg'
+        },
+        {
+            name: 'Ngày Mai Em Đi Mất',
+            singer: 'Khải Đăng - Đạt G',
+            path: 'https://c1-ex-swe.nixcdn.com/NhacCuaTui2027/NgayMaiEmDiMat-KhaiDangDatG-7747861.mp3?st=ZQWBT4S6nfD_TZzLjhe4Lw&e=1704716908&download=true',
+            img: 'https://geo-media.beatsource.com/image_size/500x500/a/a/b/aab69b0b-224f-4c05-a46a-40e430cae185.jpg'
+        },
+        {
+            name: 'Ngày Đầu Tiên & Anh Sẽ Về Sớm Thôi',
+            singer: 'Isaac, Đức Phúc',
+            path: 'https://dl30.y2hub.cc/file/zingmp3Z6BZ7WBA128.mp3?fn=Intro%EF%BC%9A%20Ng%C3%A0y%20%C4%90%E1%BA%A7u%20Ti%C3%AAn%20%26%20Anh%20S%E1%BA%BD%20V%E1%BB%81%20S%E1%BB%9Bm%20Th%C3%B4i.mp3',
+            img: 'https://photo-resize-zmp3.zmdcdn.me/w256_r1x1_jpeg/cover/9/f/7/4/9f7452c5bc22716c57e09524824a138f.jpg'
+        },
+        {
+            name: 'Em Ơi Lên Phố',
+            singer: 'Minh Vương M4U',
+            path: 'https://c1-ex-swe.nixcdn.com/NhacCuaTui991/EmOiLenPho-MinhVuongM4U-6131758.mp3?st=Bcq__xaF0NK_5FIR_sKAzw&e=1704717707&download=true',
+            img: 'https://i.ytimg.com/vi/EHASipZkZnk/maxresdefault.jpg'
+        },
+        {
             name: 'Cắt đôi nỗi sầu',
             singer: 'Tăng Duy Tân',
             path: './src/catdoinoisau.mp3',
@@ -55,6 +79,7 @@ const app = {
             path: 'https://c1-ex-swe.nixcdn.com/NhacCuaTui994/LienKhucHoaCoThiThamMuaXuan-ThuMinh-6201043.mp3?st=LJBmxLO6kdbAIxHNJnaAyQ&e=1704692635&download=true',
             img: 'https://avatar-ex-swe.nixcdn.com/playlist/2021/12/29/3/f/b/1/1640767274835_500.jpg'
         },
+       
        
     ],
     render: function () {
