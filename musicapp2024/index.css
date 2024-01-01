@@ -60,13 +60,14 @@ body {
     height: auto;
     margin: 10px 0px;
     overflow: hidden;
-
-    /* background-color: bisque; */
     display: flex;
     flex-direction: column;
     align-items: center;
+    -webkit-tap-highlight-color: transparent;
     
 }
+
+
 
 
 .button {
@@ -91,10 +92,10 @@ body {
     font-size: 20px;
 }
 
-.btn-random:hover,
-.btn-repeat:hover,
-.btn-prev:hover,
-.btn-next:hover {
+.btn-random:active,
+.btn-repeat:active,
+.btn-prev:active,
+.btn-next:active {
     color: #f84200;
 }
 
