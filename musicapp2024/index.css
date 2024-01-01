@@ -68,8 +68,6 @@ body {
 }
 
 
-
-
 .button {
     width: 100%;
     /* background-color: rebeccapurple; */
@@ -144,7 +142,6 @@ body {
     
   }
  
-
 .progress {
     -webkit-appearance: none;
     appearance: none;
@@ -204,8 +201,6 @@ body {
     align-items: center;
 }
 
-
-
 .disk {
     width: 3.5rem;
     height: 3.5rem;
@@ -219,6 +214,10 @@ body {
     height: 3rem;
     text-align: center;
     color: white;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
 }
 .song-more {
     text-align: center;
