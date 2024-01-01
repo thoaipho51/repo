@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+<body>
+    <div class="app">
+        <div class="mp3-container">
+            <div class="header">
+                <h4  class="mp3-title">Music Player</h4>
+                <h1 class="mp3-song-name">Cắt đôi nỗi sầu</h1>
+            </div>
+            <div class="mid-app">
+                <div class="cd">
+                    <div class="cd-thumb"></div>
+                </div>
+                <div class="mp3-control">
+                    <div class="button">
+                        <div class="btn btn-repeat">
+                            <i class="fas fa-redo"></i>
+                        </div>
+                        <div class="btn btn-prev">
+                            <i class="fas fa-step-backward"></i>
+                        </div>
+                        <div class="btn btn-toggle-play">
+                            <i class="fas fa-pause icon-pause"></i>
+                            <i class="fas fa-play icon-play"></i>
+                        </div>
+                        <div class="btn btn-next">
+                            <i class="fas fa-step-forward"></i>
+                        </div>
+                        <div class="btn btn-random">
+                            <i class="fas fa-random"></i>
+                        </div>
+                    </div>
+                    <input class="progress" type="range" value="0" step="1" min="0" max="100">
+                    <audio id="audio-song" src=""></audio>
+                </div>
+            </div>
+            <div class="bottom">
+                <ul class="list-song"></ul>
+            </div>
+          
+        </div>
+      </div>
+</body>
+<script src="./index.js"></script>
+<link rel="stylesheet" href="./index.css">
+</html>
